@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="@@ENDERECO_DO_CSS">
+    <title>Sorteador</title>
+</head>
+<body>
+    <main>
+        <h1>Gerador de números</h1>
+        <form id="form-gerador">
+            <div>
+                <label for="ddd">Digite o número do DDD</label>
+                <input type="number" id="ddd">
+                <input class="hide" type="number" id="number" value="99999999">
+            </div>
+            <button type="submit">Gerar número</button>
+        </form>
+        <div class="resultado">
+            <p>O DDD é:</p>
+            <span id="numero-ddd"></span>
+            <p>E seu novo número é 9:</p>
+            <span id="telephone-number"></span>
+    </div>
+    </main>
+    <script src="@@ENDERECO_DO_JS"></script>
+</body>
+</html>
